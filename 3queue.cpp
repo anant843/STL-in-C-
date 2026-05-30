@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    
+
     queue<int>q; // declaring a queue
 
     //insertion
@@ -32,6 +32,4 @@ int main(){
     first.swap(second); // swaps the contents of first and second queue
     //After swapping, first will contain 4 5 and second will contain 1 2  
     
-    
-
 }
