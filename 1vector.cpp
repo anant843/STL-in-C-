@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    
  vector<int>v; // declaring vector
 
  vector<int>v2(4); // declaring vector of size 4
@@ -87,23 +88,6 @@ vec[0]=vector<int>(4);
 vec[1]=vector<int>(2);
 vec[2]=vector<int>(3);
 vec[3]=vector<int>(5);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
