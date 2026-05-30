@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    
- vector<int>v; // declaring vector
+
+ vector<int>v; //  Creation of vector
 
  vector<int>v2(4); // declaring vector of size 4
 
@@ -53,10 +53,11 @@ v.insert(v.end(), 60); // inserts 60 at the end of the vector
 
 v.erase(v.begin()); // removes the first element of the vector
 
-
 vector<int>first={1,2,3};
 vector<int>second={4,5,6};
 
+
+//Swapping two vectors
 first.swap(second); // swaps the contents of first and second vector
 
 for(int i:first){
@@ -65,7 +66,6 @@ for(int i:first){
 for(int i:second){
     cout<<i<<" "; // 1 2 3
 }
-
 
 
 vector<int>::iterator it = first.begin(); // declaring an iterator for the first vector
