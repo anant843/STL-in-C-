@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-list<int>l; // declaring a list
+list<int>l; // Creation of list
 
 //insertion
 l.push_back(10);//10
@@ -33,8 +33,10 @@ while(it!=l.end()){
 
 l.remove(10); // removes all occurrences of 10 from the list
 
+//Swapping two lists
 list<int>first={1,2,3};
 list<int>second={4,5,6};
+
 first.swap(second); // swaps the contents of first and second list
 //After swapping, first will contain 4 5 6 and second will contain 1 2 3
 
