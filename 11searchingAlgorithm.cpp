@@ -34,7 +34,21 @@ int main(){
     cout<<*it3.first << " " << *it3.second << endl;
     // Output 4 5 because 4 is the first element which is not less than 4 and 5 is the first element which is greater than 4
     // It is a range betwween the lower bound and upper bound of the target element in the vector arr
+   
+    //find minimum element in the vector arr
+    auto minmax = min_element(arr.begin(), arr.end());
+    cout<<*minmax<<endl;
+    // Output 1 because 1 is the minimum element in the vector arr
 
+
+    //find maximum element in the vector arr
+    auto maxmax = max_element(arr.begin(), arr.end());
+    cout<<*maxmax<<endl;
+    // Output 6 because 6 is the maximum element in the vector arr
+
+    // find the minimum and maximum element in the vector arr
+    auto minmax2 = minmax_element(arr.begin(), arr.end());
+    cout<<*minmax2.first<<" "<<*minmax2.second<<endl;
+    // Output 1 6 because 1 is the minimum element and 6 is the maximum element in the vector arr
     
-
 }
